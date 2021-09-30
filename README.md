@@ -1,1 +1,23 @@
-# review_code
+# Review code:
+
+- [] Loading page khi click nút tìm kiếm, nút tiếp tục và bất cứ thao tác gọi api nào 
+- [] màu phải chuẩn theo figma
+- [] font chuẩn theo mobile app
+- [:exclamation:] thêm ô nội dung thanh toán
+- [:white_check_mark:] bỏ tên tk vì cùng user tên giống nhau
+- [:white_check_mark:] Số tiền chuyển khoản -> Số tiền thanh toán
+- [] giao diện otp sửa lại như mobile banking
+- [] màn hình xác nhận -> dùng màn hình native
+- [] session expire time -> đưa ra file config
+- [:white_check_mark:] requestTime -> tạo mới
+- [] thêm util writelog -> function writeLog(time,path,username,content)
+- [:white_check_mark:] đưa api url ra config file
+- [:exclamation:] resultCode -> câu thông báo map trong utils
+- [] trang 500 -> Hệ thống gián đoạn
+- [] Figma vs MB app real -> chọn MB  
+- [:exclamation:] lưu biến ngôn ngữ vào session
+- [:exclamation:] bắt buộc chọn 1 kỳ mới cho phép tiếp tục
+- [] màu checkbox màu đỏ như app mb
+- [:exclamation:] Sau khi nhập OTP ô cuối cùng thì focus nút Xác nhận, ko cần focus ô OTP đầu lại
+- [] Sửa tên folder until -> utils
+- [] đưa secret key của jwt ra config
